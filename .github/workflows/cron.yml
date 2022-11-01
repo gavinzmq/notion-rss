@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "0 14 * * *" # 12am AEST
+    - cron: "15 * * * *" # 12am AEST
 
 jobs:
   get-rss-feed:
