@@ -3,7 +3,10 @@ name: Get Feed
 on:
   schedule:
     - cron: "0/5 * * * *" # 12am AEST
-
+  push:
+    branches:
+      - main
+      
 jobs:
   get-rss-feed:
     runs-on: ubuntu-latest
